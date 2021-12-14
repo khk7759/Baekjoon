@@ -9,7 +9,11 @@ public class BaekJoon_10809
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		String 
+		String S = sc.next();
+		
+		for(char i = 'a'; i <= 'z'; i++) {
+			System.out.print(S.indexOf(i) + " ");
+		}
 
 	}
 
