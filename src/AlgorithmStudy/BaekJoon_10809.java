@@ -15,6 +15,7 @@ public class BaekJoon_10809
 			System.out.print(S.indexOf(i) + " ");
 		}
 
+		sc.close();
 	}
 
 }
