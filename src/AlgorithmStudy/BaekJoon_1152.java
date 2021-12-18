@@ -1,0 +1,27 @@
+package AlgorithmStudy;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class BaekJoon_1152
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String S = sc.nextLine();
+		
+		StringTokenizer st = new StringTokenizer(S, " ");
+		
+		int C = st.countTokens();
+		
+		System.out.println(C);
+		
+//		for(int i=0; i<C; i++) {
+//			if(st.hasMoreTokens()) {
+//				String
+//			}
+//		}
+		
+		sc.close();
+	}
+}
